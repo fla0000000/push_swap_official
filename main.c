@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 14:40:36 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/08 15:33:21 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/08 16:26:09 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ int	main(int ac, char **av)
 	check_arg(ac, av);
 	check_counter(ac, av, &a);
 	b.array = malloc(a.totelement * sizeof(int));
-	//b.element = a.element;
 	
 	double_numbers(&a);
 	algorith(&a, &b);
@@ -37,19 +36,21 @@ void	ft_centos(t_stack *a, t_stack *b)
 {
 	int i;
 	int y;
-
+	
 	i = -1;
 	y = a->totelement - 3;
-	while(++i < y) 
-	{
+	while(++i < y)
+	{	
+		ft_min_swap_first_element(a);
 		pb(a, b);
-		printf("ciao\n");
-		ft_print_number(b);
 	}
 	ft_three(a);
-	//ft_print_number(a);
-	//printf("stack b\n");
-	//ft_print_number(b);
+	y = b->totelement;
+	while(y-- <= 0)
+	pa(a, b);
+	ft_print_number(a);
+	printf("stack b\n");
+	ft_print_number(b);
 }
 
 

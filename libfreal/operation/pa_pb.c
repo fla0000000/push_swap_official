@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/23 22:55:30 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/04/24 17:35:09 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/08 15:44:33 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void	pb(t_stack *a, t_stack *b)
 	if (a->element == 0)
 		return ;
 	b->element++;
-	i = a->element;
+	i = b->element;
 	while (--i > 0)
 		b->array[i] = b->array[i - 1];
 	b->array[0] = a->array[0];
