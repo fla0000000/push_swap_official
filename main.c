@@ -6,12 +6,16 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 14:40:36 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/06 16:25:08 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/08 15:33:21 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
+//git status
+// git add <file>
+// git commit -m "gg"
+// git push 
 int	main(int ac, char **av)
 {
 	t_stack	a;
