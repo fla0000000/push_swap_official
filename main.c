@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 14:40:36 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/08 16:26:09 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/09 14:53:00 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,8 +45,8 @@ void	ft_centos(t_stack *a, t_stack *b)
 		pb(a, b);
 	}
 	ft_three(a);
-	y = b->totelement;
-	while(y-- <= 0)
+	y = b->element;
+	while(y-- > 0)
 	pa(a, b);
 	ft_print_number(a);
 	printf("stack b\n");

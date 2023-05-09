@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/23 16:32:08 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/05 15:30:12 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/09 14:58:56 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ void	double_numbers(t_stack *stack);
 void	ft_two(t_stack *a);
 void	algorith(t_stack *a, t_stack *b);
 void	ft_centos(t_stack *a, t_stack *b);
+void	ft_four(t_stack *a, t_stack *b);
 
 void	pb(t_stack *a, t_stack *b);
 void	pa(t_stack *a, t_stack *b);
