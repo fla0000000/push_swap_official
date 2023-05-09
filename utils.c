@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
+/*   By: fbiondo <fbiondo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/29 17:05:10 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/09 14:55:13 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/09 17:22:25 by fbiondo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,4 +66,5 @@ void	ft_print_number(t_stack *a)
 	int i = -1;
 	while(++i < a->element)
 		printf("%d\n", a->array[i]);
+		printf("%d\n", a->element);
 }
