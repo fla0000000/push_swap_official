@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   alghoritm5.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fbiondo <fbiondo@student.42.fr>            +#+  +:+       +#+        */
+/*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 20:04:03 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/09 15:34:50 by fbiondo          ###   ########.fr       */
+/*   Updated: 2023/05/09 19:07:04 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	algorith(t_stack *a, t_stack *b)
 		ft_four(a, b);
 	else if (a->totelement == 5)
 		ft_five(a, b);
-	else if (a->totelement <= 100)
+	else if (a->totelement <= 500)
 		ft_centos(a, b);
 	//free(b);
 }

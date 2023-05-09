@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/23 16:32:08 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/09 14:58:56 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/09 19:25:52 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int		ft_max(t_stack *a);
 int		ft_min(t_stack *a);
 void	ft_min_swap_first_element(t_stack *a);
 void	ft_five(t_stack *a, t_stack *b);
-void	ft_print_number(t_stack *a);
+void	ft_print_number(t_stack *a, t_stack *b);
 void	check_counter(int len, char **str, t_stack *a);
 char	**ft_supreme(int len, char **str);
 void	init_a(t_stack *stack, char **temp1);
