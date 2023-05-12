@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/23 19:09:27 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/04/30 14:16:45 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/11 18:14:59 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 //il primo elemento diventa l'ultimo
 
-void	ra(t_stack *a, int j) 
+void	ra(t_stack *a, int j)
 {
 	int	i;
 	int	swap;
@@ -22,15 +22,15 @@ void	ra(t_stack *a, int j)
 
 	i = a->element - 1;
 	swap = a->array[i];
-	while (--i >= (a->element - a->element))
+	while (--i >= 0)
 	{
 		swap1 = a->array[i];
 		a->array[i] = swap;
 		swap = swap1;
 	}
 	a->array[a->element - 1] = swap;
-	if(j == 1)
-	write(1, "ra\n", 3);
+	if (j == 1)
+		write(1, "ra\n", 3);
 }
 
 void	rb(t_stack *b, int j)
@@ -48,8 +48,8 @@ void	rb(t_stack *b, int j)
 		swap = swap1;
 	}
 	b->array[b->element - 1] = swap;
-	if(j == 1)
-	write(1, "rb\n", 3);
+	if (j == 1)
+		write(1, "rb\n", 3);
 }
 
 void	rr(t_stack *a, t_stack *b)

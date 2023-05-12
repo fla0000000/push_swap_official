@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 20:04:03 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/09 19:07:04 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/11 18:04:09 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,9 @@ void	algorith(t_stack *a, t_stack *b)
 		ft_four(a, b);
 	else if (a->totelement == 5)
 		ft_five(a, b);
-	else if (a->totelement <= 500)
-		ft_centos(a, b);
-	//free(b);
+	else if (a->totelement > 5)
+		radix(a, b);
+	//free(b)
 }
 
 void	ft_five(t_stack *a, t_stack *b)
