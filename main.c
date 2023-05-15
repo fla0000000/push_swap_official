@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 14:40:36 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/15 16:55:01 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/15 17:19:19 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,12 +92,9 @@ int	main(int ac, char **av)
 		free(a.num);
 		return (0);
 	}
-	if (a.element > 5)
-	{
-		ft_num_stack(&a);
-		ft_arr_sort(&a);
-		ft_empty_stack_a(&a);
-	}
+	ft_num_stack(&a);
+	ft_arr_sort(&a);
+	ft_empty_stack_a(&a);
 	init_b(&a, &b);
 	algorith(&a, &b);
 	free(a.array);
