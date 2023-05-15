@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/23 16:32:08 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/15 16:40:16 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/15 16:57:47 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,7 @@ void	algorith(t_stack *a, t_stack *b);
 void	ft_centos(t_stack *a, t_stack *b);
 void	ft_four(t_stack *a, t_stack *b);
 void	radix(t_stack *a, t_stack *b);
+void	init_b(t_stack *a, t_stack *b);
 
 void	pb(t_stack *a, t_stack *b);
 void	pa(t_stack *a, t_stack *b);
