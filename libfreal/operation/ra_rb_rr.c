@@ -6,13 +6,11 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/23 19:09:27 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/11 18:14:59 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/15 16:43:30 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../push_swap.h"
-
-//il primo elemento diventa l'ultimo
 
 void	ra(t_stack *a, int j)
 {

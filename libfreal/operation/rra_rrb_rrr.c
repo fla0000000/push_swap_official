@@ -6,12 +6,11 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/23 22:02:04 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/01 19:57:14 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/15 16:43:50 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../push_swap.h"
-//ultimo diventa il primo
 
 void	rrb(t_stack *b, int j)
 {
@@ -29,8 +28,8 @@ void	rrb(t_stack *b, int j)
 	}
 	i = 0;
 	b->array[i] = swap;
-	if(j == 1)
-	write(1, "rrb\n", 4);
+	if (j == 1)
+		write(1, "rrb\n", 4);
 }
 
 void	rra(t_stack *a, int j)
@@ -49,8 +48,8 @@ void	rra(t_stack *a, int j)
 	}
 	i = 0;
 	a->array[i] = swap;
-	if(j == 1)
-	write(1, "rra\n", 4);
+	if (j == 1)
+		write(1, "rra\n", 4);
 }
 
 void	rrr(t_stack *a, t_stack *b)

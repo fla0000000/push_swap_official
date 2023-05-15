@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/11 17:04:01 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/13 17:08:21 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/15 16:42:37 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,26 +22,25 @@ int	ft_bin(int n)
 	return (i);
 }
 
-void    radix(t_stack *a, t_stack *b)
+void	radix(t_stack *a, t_stack *b)
 {
-    int n;
-    int k;
-    int i;
+	int	n;
+	int	k;
+	int	i;
 
-    k = -1;
-    n = ft_bin(a->element);
-    while(++k < n - 1)
-    {
-        i = a->element;
-        while(--i >= 0)
-        {
-            if((a->array[0] >> k) % 2 == 1)
-                ra(a, 1);
-            else
-                pb(a, b);
-        }
-        //ft_print_number(a, b);
-        while(b->element > 0)
-            pa(a, b);
-    }
+	k = -1;
+	n = ft_bin(a->element);
+	while (++k < n - 1)
+	{
+		i = a->element;
+		while (--i >= 0)
+		{
+			if ((a->array[0] >> k) % 2 == 1)
+				ra(a, 1);
+			else
+				pb(a, b);
+		}
+		while (b->element > 0)
+			pa(a, b);
+	}
 }

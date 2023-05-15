@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/29 17:05:10 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/14 13:44:25 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/15 16:41:04 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,4 +75,15 @@ void	ft_print_number(t_stack *a, t_stack *b)
 	printf("elementi;%d\n", b->element);
 	while (++i < b->element)
 		printf("%d\n", b->array[i]);
+}
+
+void	init_b(t_stack *a, t_stack *b)
+{
+	int	i;
+
+	i = -1;
+	b->array = (int *)malloc(a->element * sizeof(int));
+	while (++i < a->element)
+		b->array[i] = 0;
+	b->element = 0;
 }
