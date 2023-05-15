@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/11 17:04:01 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/11 18:13:07 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/13 17:08:21 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,8 @@ void    radix(t_stack *a, t_stack *b)
             else
                 pb(a, b);
         }
+        //ft_print_number(a, b);
         while(b->element > 0)
             pa(a, b);
     }
 }
-

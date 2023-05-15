@@ -16,13 +16,6 @@ all: $(%.c)
 %.c: %.o
 	@$(CC) $(CFLAGS) -o $<
 
-bonus: $(%.c)
-	@$(CC) $(CFLAGS) -c $(SRCS)
-	@make -C libfreal/operation
-	@make -C libfreal/getnextline
-	@make -C libfreal
-	@$(CC) $(CFLAGS) $(OBJSB) $(LIB_M) $(LIB_L) $(LIB_G) -o $(NAMEB)
-
 clean:
 	@rm -f $(OBJS)
 	@make clean -C libfreal/operation

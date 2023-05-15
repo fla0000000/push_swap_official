@@ -6,7 +6,7 @@
 /*   By: flaviobiondo <flaviobiondo@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/29 17:05:10 by flaviobiond       #+#    #+#             */
-/*   Updated: 2023/05/11 12:40:41 by flaviobiond      ###   ########.fr       */
+/*   Updated: 2023/05/14 13:44:25 by flaviobiond      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,10 +69,10 @@ void	ft_print_number(t_stack *a, t_stack *b)
 	i = -1;
 	while (++i < a->element)
 		printf("%d\n", a->array[i]);
-	//printf("%d\n", a->element);
+	printf("elementi %d\n", a->element);
 	printf("stack b\n");
 	i = -1;
-	//printf("%d\n", b->element);
+	printf("elementi;%d\n", b->element);
 	while (++i < b->element)
 		printf("%d\n", b->array[i]);
 }
